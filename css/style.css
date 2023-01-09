@@ -103,18 +103,11 @@ body {
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5;
-    background-image: linear-gradient(rgb(57, 127, 232), rgb(11, 16, 123));
+    background-image: none;
 }
 
 h1 {
     color: rgb(255, 255, 255);
-}
-
-.imgdp img {
-    height: 200px;
-    width: 200px;
-    border-color: black;
-    align-items: center;
 }
 
 
@@ -202,8 +195,8 @@ body {
 }
 
 body {
-    background: #007bff;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
+    background: #673209;
+    background-color: rgb(122, 24, 26);
 }
 
 h1,
