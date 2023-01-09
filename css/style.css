@@ -73,7 +73,7 @@
 #navBar {
     display: flex;
     flex-direction: row;
-    background-color: rgb(47, 140, 222);
+    background-color: rgb(122, 24, 26)!important;
     height: 100px;
     justify-content: flex-end;
     font-weight: 500;
@@ -93,7 +93,7 @@
 }
 
 .navbar a:hover{
-    color: rgb(57, 127, 232)!important;
+    color: rgb(122, 24, 26)!important;
     border-bottom: solid var(--green-theme) 4px;
 }
 
@@ -145,11 +145,13 @@ h1 {
 .title h2 {
     font-size: 150%;
     font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #aboutmetext p {
     font-size: 100%;
     color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2 {
@@ -164,9 +166,10 @@ h2 {
     margin-bottom: 2rem;
 }
 
+
 .bg-light {
 
-    background-color: rgb(62, 62, 62) !important;
+    background-color: rgb(242, 252, 36) !important;
     color: #fbfbfb !important;
 }
 
@@ -182,7 +185,7 @@ h2 {
 }
 
 .navbar a {
-    color: #fbfbfb !important;
+    color: #000000 !important;
 
 }
 
