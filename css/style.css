@@ -1,0 +1,220 @@
+@media only screen and (max-width:1200px) {
+    nav h1 {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #navigation {
+        visibility: hidden;
+    }
+
+    .hero-banner h2 {
+        visibility: hidden;
+    }
+
+    nav h1 {
+        font-size: 100%;
+    }
+
+    #worktitle h2 {
+        font-size: 100%;
+    }
+
+    #aboutmetitle h2 {
+        font-size: 100%;
+    }
+
+    #contactmetitle h2 {
+        font-size: 100%;
+    }
+
+    #contactmetext ul a {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #navigation {
+        visibility: hidden;
+    }
+
+    nav h1 {
+        font-size: 80%;
+    }
+
+    .hero-banner img {
+        visibility: hidden;
+    }
+
+    #worktitle h2 {
+        font-size: 80%;
+    }
+
+    #aboutmetitle h2 {
+        font-size: 80%;
+    }
+
+    #contactmetitle h2 {
+        font-size: 80%;
+    }
+
+    #contactmetext ul a {
+        font-size: 80%;
+    }
+
+}
+
+
+* {
+    font-family: monospace;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(47, 140, 222);
+    height: 100px;
+    justify-content: flex-end;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 0.75%;
+}
+
+#navBar h1 {
+    width: 30%;
+    font-weight: 500;
+    text-align: right;
+    padding-top: 0.75%;
+    position: absolute;
+    left: 0%;
+    height: 5%;
+    padding-right: 0.75%;
+}
+
+.navbar a:hover{
+    color: rgb(57, 127, 232)!important;
+    border-bottom: solid var(--green-theme) 4px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-image: linear-gradient(rgb(57, 127, 232), rgb(11, 16, 123));
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.imgdp img {
+    height: 200px;
+    width: 200px;
+    border-color: black;
+    align-items: center;
+}
+
+
+#aboutmegrid {
+    margin: 5%;
+    display: grid;
+    height: auto;
+    grid-template-rows: 100%;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+        "title area";
+}
+
+#aboutmetitle {
+    grid-area: title;
+    font-size: 10px;
+}
+
+#aboutmetext {
+    grid-area: area;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 0.5%;
+    position: absolute;
+    left: 0%;
+    height: 7.5%;
+    width: 25%;
+}
+
+.title h2 {
+    font-size: 150%;
+    font-weight: 500;
+}
+
+#aboutmetext p {
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: #fbfbfb;
+    font-size: 75px;
+}
+
+.card {
+    background: rgb(105, 103, 108);
+    border: 1px solid #fbfbfb;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 2rem;
+}
+
+.bg-light {
+
+    background-color: rgb(62, 62, 62) !important;
+    color: #fbfbfb !important;
+}
+
+.nav-link {
+
+    color: #fbfbfb !important;
+
+}
+
+.nav-item {
+    color: #fbfbfb !important;
+
+}
+
+.navbar a {
+    color: #fbfbfb !important;
+
+}
+
+body {
+    height: 100%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+body {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
