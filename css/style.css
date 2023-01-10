@@ -14,17 +14,6 @@
     padding-top: 0.75%;
 }
 
-#navBar h1 {
-    width: 30%;
-    font-weight: 500;
-    text-align: right;
-    padding-top: 0.75%;
-    position: absolute;
-    left: 0%;
-    height: 5%;
-    padding-right: 0.75%;
-}
-
 .navbar a:hover{
     color: rgb(122, 24, 26)!important;
     border-bottom: solid var(--green-theme) 4px;
@@ -125,6 +114,7 @@ h2 {
 
 }
 
+
 body {
     height: 100%;
 }
@@ -150,3 +140,5 @@ h6 {
 p {
     margin: 0;
 }
+
+
