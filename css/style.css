@@ -98,7 +98,7 @@ h2 {
 
 .bg-light {
 
-    background-color: rgb(242, 252, 36) !important;
+    background-color: rgb(122, 24, 26) !important;
     color: #fbfbfb !important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -116,7 +116,7 @@ h2 {
 }
 
 .navbar a {
-    color: #000000 !important;
+    color: #fbfbfb !important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
